@@ -14,21 +14,21 @@ fun main() {
 }
 
 fun add(a: Int, b: Int): String {
-    return "${a} + ${b} = ${ a + b }"
+    return "$a + $b = ${ a + b }"
 }
 
 fun subtract(a: Int, b: Int): String {
-    return "${a} - ${b} = ${ a - b }"
+    return "$a - $b = ${ a - b }"
 }
 
 fun multiply (a: Int, b: Int): String {
-    return "${a} * ${b} = ${ a * b }"
+    return "$a * $b = ${ a * b }"
 }
 
 fun divide(a: Int, b: Int): String {
-    return "${a} / ${b} = ${ a / b }"
+    return "$a / $b = ${ a / b }"
 }
 
 fun remainder(a: Int, b: Int): String{
-    return "${a} % ${b} = ${ a % b }"
+    return "$a % $b = ${ a % b }"
 }
