@@ -1,7 +1,6 @@
 import java.text.DecimalFormat
 import java.text.Format
 
-var items = emptyArray<Float>()
 var totalDue = 0.0
 
 fun main() {
@@ -19,7 +18,6 @@ fun askInput() {
         try {
             val input = readln().toFloat()
             if (input.toInt() != 0) {
-                items += input
                 totalDue += input
             } else { // done - print stuff
                 val twoDigits = DecimalFormat("0.00")
