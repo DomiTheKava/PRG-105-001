@@ -1,3 +1,9 @@
+/**
+ * Main
+ * @author Dominik Penkava
+ * date: 3/5/24
+ */
+
 fun main() {
 
     println("---------------") // separator

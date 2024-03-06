@@ -1,3 +1,12 @@
+/**
+ * subclass Class commercial
+ * @author Dominik Penkava
+ * date: 3/5/24
+ * @param
+ * propertyName is the property name of commercial customer
+ * multiProperty is an array of Doubles for added sqrft to be calculated
+ */
+
 import java.text.DecimalFormat
 
 class Commercial (

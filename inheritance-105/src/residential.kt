@@ -1,3 +1,12 @@
+/**
+ * subclass Class commercial
+ * @author Dominik Penkava
+ * date: 3/5/24
+ * @param
+ * propertyName is the property name of residential customer
+ * senior is a boolean if they are a senior or not. applys 15% discount.
+ */
+
 import java.text.DecimalFormat
 
 class Residential (
